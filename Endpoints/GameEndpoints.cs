@@ -4,7 +4,7 @@ namespace ASP.NET_Core_Game_Store.Endpoints;
 
 internal static class GameEndpoints
 {
-    const string GetGameEndpointName = "GetGame";
+    private const string GetGameEndpointName = "GetGame";
 
     private static readonly List<GameDto> s_games =
     [
